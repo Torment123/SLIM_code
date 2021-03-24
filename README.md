@@ -49,6 +49,25 @@ To generate random samples from any starting generation scale, please first trai
 ```bash
 python random_samples.py --input_name <training_image_file_name> --mode random_samples --gen_start_scale <generation start scale number>
 ```
+**4.Harmonization**
+To harmonize a pasted object into an image, please first train SinGAN model on the desired background image (as described above), then save the naively pasted reference image and it's binary mask under "Input/Harmonization" (see the images in the data link for an example). Run the command
+```bash
+python harmonization.py --input_name <training_image_file_name> --ref_name <naively_pasted_reference_image_file_name> --harmonization_start_scale <scale to inject>
+```
+
+**5.Editing**
+To edit an image, please first train SinGAN model on the desired non-edited image (as described above), then save the naive edit as a reference image under "Input/Editing" with a corresponding binary map (see the images in the data link for an example). Run the command
+```bash
+python editing.py --input_name <training_image_file_name> --ref_name <edited_image_file_name> --editing_start_scale <scale to inject>
+```
+
+# Additional Functions
+**Single Image FID**
+To calculate the SIFID between real images and their corresponding fake samples, please run:
+```bash
+python SIFID/sifid_score.py --path2real <real images path> --path2fake <fake images path> 
+```
+Make sure that each of the fake images file name is identical to its corresponding real image file name.
 
 
 
