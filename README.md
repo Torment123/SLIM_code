@@ -10,10 +10,22 @@ The few-shot learning datasets used in the paper can be found at <https://drive.
 
 **1.How to run**
 
-For 256 x 256 resolution images, enter the folder 'FastGAN-SLIM-256', and call:
+For 256 x 256 resolution datasets, enter the folder 'FastGAN-SLIM-256', and call:
 ```bash
-python train.py --path /path/to/RGB-image-folder 
+python train.py --path /path/to/RGB-image-folder  --im_size 256
 ```
+For 1024 x 1024 resolution datasets, enter the folder 'FastGAN-SLIM-1024', and call:
+```bash
+python train.py --path /path/to/RGB-image-folder  --im_size 1024
+```
+
+Once finish training, for evaluation, you can generate a certain number of images by:
+```bash
+cd ./train_results/num_of_your_training/
+python eval.py --n_sample 5000  --im_size your_im_size
+```
+and calculate the FID score using the fid.py file in the sub-folder benchmarking
+
 
 
 
