@@ -37,7 +37,18 @@ python -m pip install -r requirements.txt
 The images used in this paper can be found at <https://drive.google.com/drive/folders/17kxp715a875K3Qb5rSb9M1ShUcduAeZ-?usp=sharing>
 
 **2.Train**
-To train the proposed SLIM-SinGAN on a image, put the desired image file under Input/Images
+To train the proposed SLIM-SinGAN on a image, put the desired image file under Input/Images,
+and run
+```bash
+python main_train.py --input_name <input_file_name>
+```
+This will also use the resulting trained model to generate random samples starting from the coarsest scale (n=0)
+
+**3.Random samples**
+To generate random samples from any starting generation scale, please first train the proposed SLIM-SinGAN model on the desired image (as described above), then run
+```bash
+python random_samples.py --input_name <training_image_file_name> --mode random_samples --gen_start_scale <generation start scale number>
+```
 
 
 
