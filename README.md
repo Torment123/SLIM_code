@@ -10,7 +10,10 @@ The few-shot learning datasets used in the paper can be found at <https://drive.
 
 **1.How to run**
 
-For 256 x 256 resolution images, enter the folder 'FastGAN-SLIM-256'
+For 256 x 256 resolution images, enter the folder 'FastGAN-SLIM-256', and call:
+```bash
+python train.py --path /path/to/RGB-image-folder 
+```
 
 
 
