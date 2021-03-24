@@ -66,7 +66,7 @@ To generate random samples from any starting generation scale, please first trai
 ```bash
 python random_samples.py --input_name <training_image_file_name> --mode random_samples --gen_start_scale <generation start scale number>
 ```
-![SLIM-SinGAN-uncontional](https://i.ibb.co/Bf8chWs/test.png)
+![SLIM-SinGAN-uncontional](https://i.ibb.co/YjGDBgT/pytorch-teaser.png)
 
 Figure3. Example synthesized images of SLIM-SinGAN for unconditional image generation task
 
