@@ -2,8 +2,8 @@
 
 **Implementation of the paper:" SLIM: Skip-Layer Inception Modulation for Image Synthesis"**
 
-# Code
+# FastGAN-SLIM
 
-**Install dependencies**
+
 
 
