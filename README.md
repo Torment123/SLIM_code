@@ -6,6 +6,8 @@
 
 The instructions is based on the repo of the fastgan paper [FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch), please also refer to their instructions
 
+The file with the SLIM module definition is at models.py, the function name is 'InceptionBlock'
+
 **0.Data**
 
 The few-shot learning datasets used in the paper can be found at <https://drive.google.com/file/d/1aAJCZbXNHyraJ6Mi13dSbe7pTyfPXha0/view>
@@ -29,6 +31,10 @@ python eval.py --n_sample 5000  --im_size your_im_size
 and calculate the FID score using the fid.py file in the sub-folder benchmarking
 
 # SLIM-SinGAN
+
+The instructions are based on the repo of SinGAN paper: [SinGAN](https://github.com/tamarott/SinGAN), pleae also refer to their instructions
+
+The file with SLIM module definition is at SLIM-SinGAN/SinGAN/models.py, the function name is 'InceptionBlock' 
 
 **0.Install dependencies**
 Enter the folder 'SLIM-SinGAN', and run
