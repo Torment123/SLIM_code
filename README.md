@@ -75,12 +75,19 @@ To harmonize a pasted object into an image, please first train SinGAN model on t
 ```bash
 python harmonization.py --input_name <training_image_file_name> --ref_name <naively_pasted_reference_image_file_name> --harmonization_start_scale <scale to inject>
 ```
+![SLIM-SinGAN-harmonization](https://i.ibb.co/xqQ03tp/SLIM-Sin-GAN-teaser-harmonization.png)
+
+Figure4. Example harmonizaed images of SLIM-SinGAN
+
 
 **5.Editing**
 To edit an image, please first train SinGAN model on the desired non-edited image (as described above), then save the naive edit as a reference image under "Input/Editing" with a corresponding binary map (see the images in the data link for an example). Run the command
 ```bash
 python editing.py --input_name <training_image_file_name> --ref_name <edited_image_file_name> --editing_start_scale <scale to inject>
 ```
+![SLIM-SinGAN-editing](https://i.ibb.co/dtZND3k/SLIM-Sin-GAN-teaser-editing.png)
+
+Figure5. Example Edited images of SLIM-SinGAN
 
 # Additional Functions
 **Single Image FID**
