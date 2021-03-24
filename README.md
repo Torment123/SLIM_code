@@ -20,11 +20,15 @@ python train.py --path /path/to/RGB-image-folder  --im_size 256
 ```
 
 ![Obama](https://i.ibb.co/VS3ycB9/30000.jpg)
+Figure1. Synthesized 256x256 images of the proposed FastGAN-SLIM
 
 For 1024 x 1024 resolution datasets, enter the folder 'FastGAN-SLIM-1024', and call:
 ```bash
 python train.py --path /path/to/RGB-image-folder  --im_size 1024
 ```
+![Skulls](https://i.ibb.co/DpvyK1w/10000.jpg)
+Figure2. Synthesized 1024x1024 images of the proposed FastGAN-SLIM
+
 
 Once finish training, for evaluation, you can generate a certain number of images by:
 ```bash
