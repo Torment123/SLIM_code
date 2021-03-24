@@ -26,6 +26,21 @@ python eval.py --n_sample 5000  --im_size your_im_size
 ```
 and calculate the FID score using the fid.py file in the sub-folder benchmarking
 
+# SLIM-SinGAN
+
+**0.Install dependencies**
+Enter the folder 'SLIM-SinGAN', and run
+```bash
+python -m pip install -r requirements.txt
+```
+**1.Data**
+The images used in this paper can be found at <https://drive.google.com/drive/folders/17kxp715a875K3Qb5rSb9M1ShUcduAeZ-?usp=sharing>
+
+**2.Train**
+To train the proposed SLIM-SinGAN on a image, put the desired image file under Input/Images
+
+
+
 
 
 
