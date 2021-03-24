@@ -18,6 +18,9 @@ For 256 x 256 resolution datasets, enter the folder 'FastGAN-SLIM-256', and call
 ```bash
 python train.py --path /path/to/RGB-image-folder  --im_size 256
 ```
+
+![Obama](https://i.ibb.co/VS3ycB9/30000.jpg)
+
 For 1024 x 1024 resolution datasets, enter the folder 'FastGAN-SLIM-1024', and call:
 ```bash
 python train.py --path /path/to/RGB-image-folder  --im_size 1024
