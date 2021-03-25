@@ -51,7 +51,7 @@ Enter the folder 'SLIM-SinGAN', and run
 python -m pip install -r requirements.txt
 ```
 **1.Data**
-The images used in this paper can be found at <https://drive.google.com/drive/folders/17kxp715a875K3Qb5rSb9M1ShUcduAeZ-?usp=sharing>
+The images used in this paper can be found at <https://drive.google.com/drive/folders/1XvwOY8J5_nqBsGliZJgdvsPRGj1FuNsN?usp=sharing>
 
 **2.Train**
 To train the proposed SLIM-SinGAN on a image, put the desired image file under Input/Images,
