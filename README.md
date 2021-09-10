@@ -1,6 +1,6 @@
 # SLIM_code
 
-**Implementation of the paper:" SLIM: Skip-Layer Inception Modulation for Image Synthesis"**
+**Implementation of the paper:" Learning Inception Attention for Image Synthesis and Image Recognition"**, currently it contains the part for SLIM-FastGAN and SLIM-SinGAN, we will relsease the part of SLIM for imagenet classification later on
 
 # FastGAN-SLIM
 
